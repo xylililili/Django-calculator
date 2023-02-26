@@ -1,0 +1,13 @@
+<form action='/mycal' method='post'>
+    <input type='text' name="x" value="{{ x }}">
+    <select name="op">
+        <option value="add">+add</option>
+        <option value="sub">-suzstract</option>
+        <option value="mul">*multiply</option>
+        <option value="div">/dividor</option>
+    </select>
+    <input type='text' name="y" value="{{ y }}"> = <span>{{ result }}</span>
+    <div>
+        <input type="submit" value="Start to calculate">
+    </div>
+</form>
